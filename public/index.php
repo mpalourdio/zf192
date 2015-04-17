@@ -1,6 +1,6 @@
 <?php
 defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FILE__) . '/../application'));
-define('APPLICATION_ENV',getenv('APPLICATION_ENV'));
+define('APPLICATION_ENV', 'development');
 
 error_reporting(E_ALL | E_STRICT);
 ini_set('display_errors', 1);
